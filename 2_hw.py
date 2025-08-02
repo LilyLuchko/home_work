@@ -16,3 +16,9 @@ def task_2():
 	#срез строки,натуральные числа
 call_2=task_2()
 print(call_2)
+
+def task_3(a):
+	return a**2,type(task_3),type(a)
+	
+deg = task_3(4.4)
+print(deg)
