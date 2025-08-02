@@ -8,3 +8,11 @@ def task_1():
 	
 call=task_1()
 print(call)
+
+
+def task_2():
+	a = [1, 2, 3, 5, 8, 13, 21]
+	return a[0:3],type(a)
+	#срез строки,натуральные числа
+call_2=task_2()
+print(call_2)
