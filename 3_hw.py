@@ -27,3 +27,12 @@ def seasons(a):
 		print('autumn')
 		
 seasons(11)
+def three_numbers(a,b,c):
+	if a>10 and b>10 and c>10:
+		print("Yes")
+	else:
+		print("No")
+three_numbers(1,3,8)
+three_numbers(11,43,78)
+three_numbers(1,3,-8)
+three_numbers(10.3,10.02,10.1)
