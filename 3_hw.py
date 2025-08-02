@@ -36,3 +36,14 @@ three_numbers(1,3,8)
 three_numbers(11,43,78)
 three_numbers(1,3,-8)
 three_numbers(10.3,10.02,10.1)
+
+
+def sum_positive(numbers):
+	count=0
+	for number in numbers:
+		if number>0:
+			count+=1
+	return count
+
+	count=sum_positive(3,-8,0,9,-3)
+	print(count)
