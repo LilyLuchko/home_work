@@ -67,4 +67,17 @@ web_tables.press_the_button()
 
 		
 		
-
+class Car:
+	def __init__(self,color,type_car,year):
+		self.color=color
+		self.year=year
+	def turn_on_car(self):
+		print('Автомобиль заведен')
+	def turn_off_car(self):
+		print('Автомобиль заглушен')
+	def year_car(year):
+		self.year=year
+	def type_car_add(type_car):
+		self.type_car=type_car
+	def color_car(color):
+		self.color=color
