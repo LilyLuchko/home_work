@@ -36,6 +36,25 @@ print(f'Сумма = {calc.addition()}') #Здесь печатает резул
 print(f'Умножение = {calc.multiplication()}') #Здесь Runtime error
 print(f'Деление = {calc.division()}')
 print(f'Разность = {calc.subtraction()}')
+
+
+
+
+
+
+class Button:
+	type_button='Кнопка'
+class Button_sidebar(Button):
+	def __init__(self,text,loc=None):
+		self.text=text
+		self.loc=loc
+	def print_name_of_button(self):
+		print(f'Кнопка называется {self.text}')
+	def press_the_button(self):
+		print(f'Клик по кнопке {self.text}')
+text_box=Button_sidebar('Text Box')
+text_box.print_name_of_button()
+text_box.press_the_button()
 		
 		
 
