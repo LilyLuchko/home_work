@@ -5,9 +5,9 @@ class Rectangle:
 	def square(self):
 		return self.width * self.height
 	def perimeter(self):
-		return 2*width + 2*height
+		return 2*self.width + 2*self.height
 		
-rectangle_1 = Rectangle(2,3) #Runtime error
+rectangle_1 = Rectangle(2,3)
 print(rectangle_1.square())
 print(rectangle_1.perimeter())
 
