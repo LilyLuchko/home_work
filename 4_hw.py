@@ -64,9 +64,7 @@ radio_button.press_the_button()
 web_tables=Button_sidebar('Web Tables')
 web_tables.print_name_of_button()
 web_tables.press_the_button()
-web_tables=Button_sidebar('Web Tables')
-web_tables.print_name_of_button()
-web_tables.press_the_button()
+
 		
 		
 
