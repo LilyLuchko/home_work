@@ -55,6 +55,18 @@ class Button_sidebar(Button):
 text_box=Button_sidebar('Text Box')
 text_box.print_name_of_button()
 text_box.press_the_button()
+check_box=Button_sidebar('Check Box')
+check_box.print_name_of_button()
+check_box.press_the_button()
+radio_button=Button_sidebar('Radio Box')
+radio_button.print_name_of_button()
+radio_button.press_the_button()
+web_tables=Button_sidebar('Web Tables')
+web_tables.print_name_of_button()
+web_tables.press_the_button()
+web_tables=Button_sidebar('Web Tables')
+web_tables.print_name_of_button()
+web_tables.press_the_button()
 		
 		
 
