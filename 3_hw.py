@@ -26,6 +26,7 @@ def seasons(a):
 		print('autumn')
 		
 seasons(11)
+
 def three_numbers(a,b,c):
 	if a>10 and b>10 and c>10:
 		print("Yes")
@@ -46,6 +47,7 @@ def sum_positive(numbers):
 
 	count=sum_positive(3,-8,0,9,-3)
 	print(count)
+	
 def count(years,months):
 	return years*12*29+months*29
 days=count(3,6)
