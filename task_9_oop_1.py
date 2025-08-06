@@ -1,4 +1,4 @@
-class Input:
+class Input(Checks):
 	def __init__(self,loc):
 		self.loc=loc
 search = Input('Input#search')
